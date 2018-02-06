@@ -1,0 +1,48 @@
+.contact-form{
+   
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color:#fff;
+    margin-top: -480px;
+    margin-bottom: 100px;
+}
+
+
+.adrs{
+    background-color:#4390b8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#fff;
+    
+}
+
+
+.form{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #4390b8;
+}
+
+
+.sociale .fb{
+   color: #4166b2;
+   font-size: 40px;
+}
+.sociale .tw{
+    color: #4eaae1;
+    font-size: 40px;
+ }
+
+ .sociale .li{
+    color: rgb(228, 78, 57);
+    color: rgb(55, 132, 192);
+   
+    font-size: 40px;
+ }
+ .sociale .gp{
+    color: rgb(228, 78, 57);
+   
+   
+    font-size: 40px;
+ }

@@ -1,0 +1,52 @@
+#mainfooter {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #373a36;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+#mainfooter h1 ,p ,h3{
+    color:#ffffff;
+}
+
+
+#mainfooter li  {
+    list-style: none
+}
+
+
+
+
+#mainfooter li  a {
+    text-decoration: none;
+    color:#fff;
+}
+
+
+#mainfooter i {
+    float:right;
+   
+    padding-left: 4px;
+    margin-right: auto;
+    margin-left:2px;
+}
+#mainfooter i facebook{
+    background-color: #3b599b
+    
+}
+
+
+
+
+#footer-bottom {
+    background-color: #ebebeb;
+    font-family: 'Open Sans', sans-serif;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#footer-info {
+    color:#373a36;
+}
