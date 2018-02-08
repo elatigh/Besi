@@ -28,6 +28,7 @@
 #dashboard .box {
 
     box-shadow: 3px 3px 3px 3px #ccc;
+    padding-top: 15px;
 }
 
 #dashboard a{
@@ -35,9 +36,10 @@
 }
 
 #dashboard i {
+   
     font-size: 70px;
     color:#0762fb;
-    margin-left: 43%;
+ 
     margin-right: auto;
     margin-top: 12px;
    

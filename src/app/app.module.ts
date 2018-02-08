@@ -11,12 +11,14 @@ import { Route } from '@angular/compiler/src/core';
 import { SlidesComponent } from './component/slides/slides.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { MobileappComponent } from './component/mobileapp/mobileapp.component';
 
 
 const appRoutes : Routes = [
   { path: '' , component:DashboardComponent},
   { path: 'cloud' , component:CloudComponent},
-  { path:'contact' , component:ContactComponent }
+  { path:'contact' , component:ContactComponent },
+  { path:'mobileapp' , component:MobileappComponent }
 
 ];  
   
@@ -30,7 +32,8 @@ const appRoutes : Routes = [
     CloudComponent,
     SlidesComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    MobileappComponent
   ],
   imports: [
     BrowserModule,

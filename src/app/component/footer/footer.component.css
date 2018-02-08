@@ -6,35 +6,34 @@
 }
 
 
-#mainfooter h1 ,p ,h3{
-    color:#ffffff;
-}
-
-
-#mainfooter li  {
-    list-style: none
-}
-
-
-
-
-#mainfooter li  a {
-    text-decoration: none;
+#mainfooter h1 ,p ,h3,li,a{
     color:#fff;
 }
 
 
-#mainfooter i {
-    float:right;
+#mainfooter li  {
+    list-style: none;
+}
+
+#mainfooter  li a {
+    list-style: none;
+    text-decoration: none;
    
+}
+
+
+
+
+
+
+
+#mainfooter  li {
+    float:left;
     padding-left: 4px;
     margin-right: auto;
     margin-left:2px;
 }
-#mainfooter i facebook{
-    background-color: #3b599b
-    
-}
+
 
 
 
