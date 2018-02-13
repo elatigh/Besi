@@ -1,13 +1,13 @@
 #mainfooter {
     font-family: 'Open Sans', sans-serif;
-    background-color: #373a36;
+    background-color: #f4f4f4;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
 
 #mainfooter h1 ,p ,h3,li,a{
-    color:#fff;
+    color:#000;
 }
 
 
@@ -47,5 +47,5 @@
 }
 
 #footer-info {
-    color:#373a36;
+    color:#323232;
 }

@@ -1,5 +1,31 @@
 
 
-nav {
-    background-color: red;
+nav{
+    background-color:#f4f4f4;
+    color:#fff;
+    height: 60px;
+    padding: auto;
+    
 }
+
+.dropdown .btn,
+.dropdown-menu,
+.dropdown-item,
+.navbar-brand,
+.nav-item a {
+    margin-right: 30px;
+    background-color:#f4f4f4;
+    color:#323232;
+  
+}
+.dropdown .btn:hover,
+.dropdown-menu:hover,
+.dropdown-item:hover,
+
+.nav-item a:hover {
+    color:#4494fb;
+    
+    font-size: bold;
+    font-weight: 400;
+   
+}    
