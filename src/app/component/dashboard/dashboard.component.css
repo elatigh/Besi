@@ -1,51 +1,110 @@
-#dashboard {
-    background:#ebebeb;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px
-   
-}
 
-
-#dashboard h1 {
-    color:#373a36;
-    padding-bottom: 20px;
-
-}
-
-
-
-#dashboard  h3 a {
-    color:#373a36;
-    padding-bottom: 20px;
-
-}
-
-#dashboard h3 {
-    color:#ce4351;
-}
-
-#dashboard .box {
-
-    box-shadow: 3px 3px 3px 3px #ccc;
-    padding-top: 15px;
-}
-
-#dashboard a{
-    text-decoration: none;
-}
-
-#dashboard i {
-   
-    font-size: 70px;
-    color:#4494fb;
+/*===================================
+    solutions section
+ ====================================*/
+ .solutions{
+     background:#FFF;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px
+ }
  
-    margin-right: auto;
+ .solutions .item {
+    padding-right: 40px;
+    padding-left: 10px; 
+    margin-bottom: 12px;
     margin-top: 12px;
-   
-   
+    text-align: center;
+}
+.solutions .item .title {
+    font-weight: bold;
+    font-family: ubuntu;
+}
+.solutions .item .text {
+    color:#141414;
+    font-family: ubuntu;
+    font-size: 20px
+}
+ .solutions .item .border {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.solutions .item .link button {
+  
+   border-radius: 10px;
+   margin-top: 70px;
+   margin-bottom: 15px;
+   background: #012a5e;
+   color: #FFF;
+   font-family: ubuntu;
+   font-size: 20px
 }
 
-#dashboard p span{
-    color:#373a36;
+/*===================================
+    agile method section
+ ====================================*/
+.method{
+    font-family: ubuntu;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    background: #f7f7f7;
 }
+.method .sub-title{
+    font-size: 38px;
+
+}
+.method .text{
+    font-size: 20px;
+
+}
+.method ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.method ul li{
+    font-size: 20px;
+}
+.method .start-project {
+   border-radius: 10px;
+   margin-bottom: 10px;
+   background: #012a5e;
+   color: #FFF;
+   font-family: ubuntu;
+   font-size: 20px;
+
+}
+
+/*===================================
+    wy besi section
+ ====================================*/
+
+#why-besi  {
+    font-family: ubuntu;
+    color: #012a5e;
+    /*background: url('../../../assets/images/hapy.jpg') no-repeat;*/
+    background:#edf1f5;
+    min-height: 335px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+  
+   
+
+}
+#why-besi h2 {
+    padding-bottom: 45px;
+    color:#012a5e;
+
+
+}
+
+
