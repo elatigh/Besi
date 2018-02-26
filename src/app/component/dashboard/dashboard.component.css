@@ -1,13 +1,52 @@
+/*===================================
+    home-slide section
+ ====================================*/
+ .home-slide {
+    margin-top: 40px; 
+    color: #012a5e;
+    background: url('../../../assets/images/main_bg.jpg') no-repeat;
+   
+    height: 635px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+
+ }
+.slide-text{
+    font-family: ubuntu;
+    color:#fff;
+    margin-top: 40%;
+    margin-bottom: 50%
+}
+.slide-text span{
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+.slide-text p{
+   
+    font-size: 20px;
+
+}
+
+
 
 /*===================================
     solutions section
  ====================================*/
  .solutions{
+     font-family: ubuntu;
      background:#FFF;
      margin-top: 10px;
      margin-bottom: 20px;
      padding-top: 10px;
      padding-bottom: 10px
+ } 
+ .product-header{
+     font-size: 45px;
+     font-weight: bolder;
  }
  
  .solutions .item {
@@ -16,6 +55,7 @@
     margin-bottom: 12px;
     margin-top: 12px;
     text-align: center;
+    max-height: 800px;
 }
 .solutions .item .title {
     font-weight: bold;
