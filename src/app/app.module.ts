@@ -12,13 +12,15 @@ import { SlidesComponent } from './component/slides/slides.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { MobileappComponent } from './component/mobileapp/mobileapp.component';
+import { HostingComponent } from './component/hosting/hosting.component';
 
 
 const appRoutes : Routes = [
   { path: '' , component:DashboardComponent},
   { path: 'cloud' , component:CloudComponent},
   { path:'contact' , component:ContactComponent },
-  { path:'mobileapp' , component:MobileappComponent }
+  { path:'mobileapp' , component:MobileappComponent },
+  { path:'hosting' , component:HostingComponent }
 
 ];  
   
@@ -33,7 +35,8 @@ const appRoutes : Routes = [
     SlidesComponent,
     ContactComponent,
     FooterComponent,
-    MobileappComponent
+    MobileappComponent,
+    HostingComponent
   ],
   imports: [
     BrowserModule,
