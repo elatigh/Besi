@@ -53,7 +53,7 @@ nav{
 */
 
 nav{
-    background-color:#012a5e;;
+    background-color:#012a5e;
     padding: auto;
     font-family: ubuntu;
     
@@ -62,6 +62,11 @@ nav{
     font-weight: bold;
     font-size: 30px;
     color: #FFF;
+}
+.navbar-toggler span {
+    background:red;
+    border-color: rgb(255,102,203);
+   
 }
 .nav-item {
     color:#fff;

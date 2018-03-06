@@ -1,9 +1,90 @@
-.introcloud{
-    margin-top: 15px;
+
+/*==============================
+    cloud common
+  =============================*/
+
+  .cloud{
+    font-family: ubuntu;
+    font-size: 20px;
+    background: #fff;
+    color:#212529;
+    margin-bottom: 20px
+  
+    
+    
+}
+
+/*==============================
+    priccing
+=============================*/
+.pricing{
+    background: #f5f5f6;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.box{
+   
+    margin-bottom: 12px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-left: 2px solid #F5F5F6;
+    border-right: 2px solid #F5F5F6;
+    transition: box-shadow .3s ease-in-out;
+}
+ .box .price{
+     color:#fff;
+    background:#012a5e;
+    height:60px;
+    padding-top:12px;
+    margin-bottom: 6px;
+
+    
+}
+
+.box li{
+    list-style: none;
+}
+.box a{ 
+    margin-bottom: 17px;
+    background: #012a5e;
+    
 }
 
 
-.cloud{
-    box-shadow: 3px 3px 3px 3px #ccc;
-    margin-bottom: 10px;
+
+
+
+/*==============================
+    cloud intro
+  =============================*/
+
+  .introcloud{
+    text-align: center
+
+}
+
+
+.introcloud .borde {
+    padding: left 3px;
+    padding-right: 3px;
+  
+
+}
+
+.introcloud img{
+    padding-left: 3px;
+    padding-right: 3px;
+
+} 
+
+
+
+
+/*==============================
+    cloud description
+  =============================*/
+.desription p {
+    margin-left: 3px;
+    margin-right: 3px;
 }

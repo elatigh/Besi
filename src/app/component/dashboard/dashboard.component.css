@@ -4,7 +4,7 @@
  .home-slide {
     margin-top: 40px; 
     color: #012a5e;
-    background: url('../../../assets/images/main_bg.jpg') no-repeat;
+    background: url('../../../assets/images/home.jpg') no-repeat;
    
     height: 635px;
     background-size: cover;
@@ -21,7 +21,7 @@
     margin-bottom: 50%
 }
 .slide-text span{
-    font-weight: bolder;
+    
     font-size: 50px;
 
 }
@@ -42,21 +42,28 @@
      margin-top: 10px;
      margin-bottom: 20px;
      padding-top: 10px;
-     padding-bottom: 10px
+     
  } 
  .product-header{
-     font-size: 45px;
+     font-size: 30px;
      font-weight: bolder;
  }
  
  .solutions .item {
-    padding-right: 40px;
+    padding-right: 20px;
     padding-left: 10px; 
-    margin-bottom: 12px;
     margin-top: 12px;
     text-align: center;
-    max-height: 800px;
+    
+   
 }
+.solutions .item .border {
+    height: 600px;
+    padding-top: 10px;
+    
+}
+
+
 .solutions .item .title {
     font-weight: bold;
     font-family: ubuntu;
@@ -64,24 +71,25 @@
 .solutions .item .text {
     color:#141414;
     font-family: ubuntu;
-    font-size: 20px
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
- .solutions .item .border {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
+
 .solutions .item .link button {
-  
+   
    border-radius: 10px;
-   margin-top: 70px;
-   margin-bottom: 15px;
+   margin-top: 20px;
    background: #012a5e;
    color: #FFF;
    font-family: ubuntu;
    font-size: 20px
 }
-
+.solutions .item .link {
+    margin-bottom: -36px;
+    position:relative;
+    margin-bottom: 1%;
+}
 /*===================================
     agile method section
  ====================================*/
@@ -128,8 +136,9 @@
 #why-besi  {
     font-family: ubuntu;
     color: #012a5e;
-    /*background: url('../../../assets/images/hapy.jpg') no-repeat;*/
-    background:#edf1f5;
+    color:#fff;
+    background: url('../../../assets/images/whybesi.png') no-repeat;
+    /*background:#edf1f5;*/
     min-height: 335px;
     background-size: cover;
     padding-left: 0 !important;
@@ -142,7 +151,9 @@
 }
 #why-besi h2 {
     padding-bottom: 45px;
-    color:#012a5e;
+    color:#141414;
+    color:#fff;
+    font-weight: bolder;
 
 
 }
